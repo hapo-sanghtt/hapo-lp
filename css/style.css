@@ -2,16 +2,16 @@ body {
   background: white;
   border: 1pt black;
   width : 1920px;
-  border: rgb(199, 196, 196) 1px solid;
+  border: 1px solid rgb(199, 196, 196) ;
   margin: 0pt auto;
 }
-.banner {
+.lpc-banner {
   background: url(../image/banner.png) no-repeat;
   width: 1920px;
   height: 873px;
-  border: rgb(199, 196, 196) 1px solid;
+  border: 1px solid  rgb(199, 196, 196);
 }
-.header_banner{
+.lpc-banner-button {
   font-size: 12pt;
   font-family: Roboto-Regular;
   width: 100%;
@@ -19,74 +19,74 @@ body {
   padding-left: 1344px;
   display: flex;
 }
-.about_us{
+.lpc-about-us {
   color: black ;
   font-size: 12pt;
   padding: 10px 20px;
   float: left;
 }
-.sign_in{
+.lpc-sign-in {
   color:  rgb(139, 195, 74);
   border-radius: 100px;
   padding: 10px 27px;
-  border: rgb(139, 195, 74) 2px solid;
+  border:  2px solid rgb(139, 195, 74);
   float: left;
 }
-.header_banner::after{
+.lpc-banner-button::after {
   content: ' ';
   clear: both;
   display: block;
 }
-.banner_container{
+.lpc-banner-container {
   padding-top: 165px;
 }
-.hapoerp{
+.banner-hapoerp {
   padding-left: 832px;
 }
-.icon{
+.banner-icon {
   padding-left: 585px;
   padding-top: 48px;
   display: flex;
 }
-.icon_ti-gift{
+.icon-ti-gift {
   float: left;
 }
-.ti-gift{
+.ti-gift {
   padding-left: 22px;
   font-size: 48px;
 }
-.better{
+.better {
   font-family: Roboto-Light;
   padding-top: 19px;
   font-size: 36px;
 }
-.icon_ti-alarm-clock{
+.icon-ti-alarm-clock {
   padding-left: 229px;
   float: left;
 }
-.ti-alarm-clock{
+.ti-alarm-clock {
   padding-left: 22px;
   font-size: 48px;
 }
-.icon_ti-thumb-up{
+.icon-ti-thumb-up {
   padding-left: 299px;
   float: left;
 }
-.ti-thumb-up{
+.ti-thumb-up {
   padding-left: 22px;
   font-size: 48px;
 }
-.slogan_banner{
+.banner-slogan {
   font-family: Roboto-Italic;
   padding-top: 53px;
   font-size: 14pt;
   padding-left: 676px;
 }
-.start_now_banner{
+.banner-start-now {
   padding-top: 34px;
   padding-left: 836px;
 }
-.startnow_banner{
+.start-now {
   font-family: Roboto-Regular;
   padding: 13px 30px;
   width: 140px;
@@ -98,37 +98,37 @@ body {
   box-shadow: 0px 2px 4px 0px black;
 }
 
-.today_i_learnt{
+.lpc-today-i-learnt {
   width: 100%;
   height: 571px;
   background-color: white;
-  border: rgb(199, 196, 196) 1px solid;
+  border: 1px solid rgb(199, 196, 196);
   display: flex;
 }
-.img_til{
+.lpc-til-img {
   width: 555px;
   height: 371px;
   padding-top: 100px;
   padding-left: 390px;
   float: left;
 }
-.text_til{
+.lpc-til-doc {
   padding-top: 100px;
   padding-left: 30px;
   float: left;
 }
-.header_text_til{
+.til-icon {
   display: flex;
 }
-.header_text_til .ti-bookmark-alt{
+.lpc-til-doc .ti-bookmark-alt{
   margin-top: -4px;
 }
-.ti-bookmark-alt{
+.ti-bookmark-alt {
   font-size: 36px;
   padding-top: 14px;
   float: left;
 }
-.name_ti-bookmark-alt{
+.name-ti-bookmark-alt {
   font-family: Roboto-Light;
   color: rgb(68, 68, 68);
   width: 308px;
@@ -136,27 +136,29 @@ body {
   font-size: 48px;
   padding-left: 19px;
 }
-.header_text_til::after{
+.til-icon::after {
   content: ' ';
   clear: both;
   display: block;
 }
-.slogan_text_til{
+.til-slogan {
   font-family: Roboto-Italic;
   font-size: 14px;
   padding-top: 28px;
 }
-.document_text_til{
+.til-doc {
   font-family: Roboto-Regular;
   padding-top: 28px;
   width: 555px;
   height: 168px;
   font-size: 13px;
 }
-.start_now_til{
+.til-start-now {
+  width: 195px;
+  height: 50px;
   padding-top: 30px;
 }
-.startnow_til{
+.startnow {
   font-family: Roboto-Regular;
   padding: 13px 30px;
   width: 140px;
@@ -167,79 +169,88 @@ body {
   border-radius: 40px;
   box-shadow: 0px 2px 4px 0px black;
 }
-.today_i_learnt::after{
+.lpc-today-i-learnt::after {
   content: ' ';
   clear: both;
   display: block;
 }
 
-
-.daily_report{
+.lpc-daily-report {
   width: 100%;
   height: 571px;
-  border: rgb(199, 196, 196) 1px solid;
+  border: 1px solid rgb(199, 196, 196);
   display: flex;
 }
-.text_dr{
+.daily-report-doc {
   width: 555px;
   height: 371px;
   padding-top: 100px;
   padding-left: 390px;
   float: left;
 }
-.header_text_dr{
+.deilay-report-icon {
   display: flex;
 }
-.ti-write{
+.ti-write {
   font-size: 36px;
   padding-top: 14px;
   padding-left: 20px;
   float: left;
 }
-.header_text_dr .ti-write{
+.daily-report-doc .ti-write {
   margin-top: -4px;
 }
-.name_ti-write{
+.name-ti-write {
   font-family: Roboto-Light;
   width: 308px;
   height: 63px;
   font-size: 48px;
   padding-left: 18px;
+  float: left;
 }
-.img_dr{
+.deilay-report-icon::after{
+  content: ' ';
+  clear: both;
+  display: block;
+}
+.daily-report-img {
   width: 555px;
-  height: 354px;
-  padding-top: 116px;
+  height: 371px;
+  padding-top: 100px;
   padding-left: 30px;
   float: left;
 }
-.ti-user{
+.daily-report-doc.ti-user {
+  margin-top: -4px;
+}
+.ti-user {
   font-size: 36px;
   padding-top: 14px;
   float: left;
 }
-.name_ti-user{
+.name-ti-user {
   font-family: Roboto-Light;
   width: 308px;
   height: 63px;
   font-size: 48px;
   padding-left: 18px;
+  float: left;
 }
-.document_text_til{
+.til-doc {
   padding-top: 29px;
   width: 555px;
   height: 168px;
   font-size: 13px;
 }
-.doc_1{
+.doc-1 {
   display: flex;
 }
-.ti-check-box{
+.ti-check-box {
   color: rgb(139, 195, 74);
   font-size: 18px;
   float: left;
 }
-.doc_ti-check-box{
+.doc-ti-check-box {
   font-family: Roboto-Regular;
   width: 519px;
   height: 50px;
@@ -247,40 +258,40 @@ body {
   padding-left: 18px;
   float: left;
 }
-.doc_1::after{
+.doc-1::after {
   content: ' ';
   clear: both;
   display: block;
 }
-.doc_2{
+.doc-2 {
   padding-top: 17px;
   display: flex;
 }
-.doc_2::after{
+.doc-2::after {
   content: ' ';
   clear: both;
   display: block;
 }
-.doc_3{
+.doc-3 {
   padding-top: 17px;
   display: flex;
 }
-.doc_3::after{
+.doc-3::after {
   content: ' ';
   clear: both;
   display: block;
 }
-.rectangle3{
+.rectangle3 {
   background: linear-gradient(to right,rgb(66,147,33), rgb(180,236,81));
   height: 322px;
   display: flex;
 }
-.oval1{
+.oval1 {
   padding-top: 70px;
   padding-left: 392px;
   float: left;
 }
-.oval_1{
+.oval-1 {
   width: 107px;
   height: 107px; 
   border-radius: 100%;
@@ -288,14 +299,14 @@ body {
   color: white;
   float: left;
 }
-.oval_1 .ti-write{
+.oval-1 .ti-write {
   margin-left: 11px;
 }
-.ti-write{
+.ti-write {
   font-size: 36px;
   margin-top: 15px;
 }
-.oval_small{
+.oval-small {
   width: 40px;
   height: 40px; 
   border-radius: 100%;
@@ -306,32 +317,31 @@ body {
   margin-left: 32px;
   margin-top: 85px;
 }
-.one_small{
+.one-small {
   font-size: 24px;
   margin-left: 14px;
   margin-top: 6px;
-
 }
-.inform_oval{
+.inform-oval {
   font-family: Roboto-Regular;
   padding-left: 25px;
 }
-.oval2{
+.oval2 {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
 }
-.ti-bookmark-alt{
+.ti-bookmark-alt {
   font-size: 36px;
   margin-top: 15px;
   margin-left: 34px;
 }
-.oval3{
+.oval3 {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
 }
-.oval_small_3{
+.oval-small-3 {
   width: 40px;
   height: 40px; 
   border-radius: 100%;
@@ -342,114 +352,163 @@ body {
   margin-left: 32px;
   margin-top: 20px;
 }
-.ti-layout-list-thumb{
+.ti-layout-list-thumb {
   font-size: 36px;
   margin-top: 30px;
   margin-left: 34px;
 }
-.oval4{
+.oval4 {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
 }
-.ti-face-smile{
+.ti-face-smile {
   font-size: 36px;
   margin-top: 15px;
   margin-left: 34px;
 }
-.oval5{
+.oval5 {
   padding-top: 70px;
   padding-left: 150px;
   float: left;
 }
-.ti-calendar{
+.oval-mini {
+  padding-top: 20px;
+  padding-left: 923px; 
+  display: flex;
+}
+.oval-mini-1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 2px solid rgb(216, 216, 216);
+  background-color: white;
+  float: left;
+}
+.oval-mini-2 {
+  width: 10px;
+  height: 10px; 
+  border-radius: 100%;
+  border: 2px solid rgb(216, 216, 216);
+  color: white;
+  margin-left: 23px;
+  float: left;
+}
+.oval-mini-3 {
+  width: 10px;
+  height: 10px; 
+  border-radius: 100%;
+  border: 2px solid rgb(216, 216, 216);
+  color: white;
+  margin-left: 23px;
+  float: left;
+}
+.oval-mini::after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+.ti-calendar {
   font-size: 36px;
   width: 36px;
   height: 36px;
   margin-top: 15px;
   margin-left: 34px;
 }
-.header_text_til .ti-face-smile{
+.deilay-report-icon .ti-face-smile {
   margin-top: -4px;
 }
-.ti-face-smile{
+.ti-face-smile {
   font-size: 36px;
   padding-top: 15px;
   float: left;
 }
-.name_ti-face-smile{
+.name-ti-face-smile {
   font-family: Roboto-Light;
   width: 308px;
   height: 63px;
   font-size: 48px;
   padding-left: 19px;
 }
-
-.our_customers{
+.ti-unlock {
+  color: rgb(139, 195, 74);
+  font-size: 18px;
+  float: left;
+}
+.ti-cup {
+  color: rgb(139, 195, 74);
+  font-size: 18px;
+  float: left;
+}
+.ti-stats-up {
+  color: rgb(139, 195, 74);
+  font-size: 18px;
+  float: left;
+}
+.lpc-our-customers {
   background: url(../image/rectangle3.png);
   padding-top: 50px;
   height: 544px;
-  border: rgb(199, 196, 196) 1px solid;
+  border: 1px solid rgb(199, 196, 196);
 }
-.header_our_customers{
+.our-customers {
   font-family: Roboto-Light;
   color: #ffffff;
   font-size: 48px;
   padding-left: 816px;
 }
-.img_avatar{
+.avatar-img {
   padding-top: 48px;
   display: flex;
 }
-.avatar_1{
+.avatar-1 {
   padding-left: 390px;
   float: left;
 }
-.img_rectangle4Copy2{
+.our-customers-img {
   width: 79px;
   height: 80px;
 }
-.duongnt{
+.duongnt {
   color: white;
   font-family: Roboto-Regular;
   font-size: 13px;
   padding-left: 16px;
 }
-.avatar_2{
+.avatar-2 {
   padding-left: 72px;
   float: left;
 }
-.avatar_3{
+.avatar-3 {
   padding-left: 72px;
   float: left;
 }
-.avatar_4{
+.avatar-4 {
   padding-left: 72px;
   float: left;
 }
-.avatar_5{
+.avatar-5 {
   padding-left: 72px;
   float: left;
 }
-.avatar_6{
+.avatar-6 {
   padding-left: 72px;
   float: left;
 }
-.avatar_7{
+.avatar-7 {
   padding-left: 72px;
   float: left;
 }
-.avatar_8{
+.avatar-8 {
   padding-left: 72px;
   float: left;
 }
-.ti-quote-left{
+.ti-quote-left {
   color: #ffffff;
-  padding-top: 39px;
-  padding-left: 497px;
+  padding-left: 487px;
   font-size: 72px;
 }
-.doc_our_customers{
+.doc {
   color: #ffffff;
   font-family: Roboto-Light;
   font-size: 18px;
@@ -457,75 +516,75 @@ body {
   width: 750px;
   height: 90px;
 }
-.ti-quote-right{
+.ti-quote-right {
   color: #ffffff;
   padding-left: 1362px;
   font-size: 72px;
 }
-.header_text_dr .ti-calendar{
+.deilay-report-icon .ti-calendar {
   margin-top: -4px;
 }
-.ti-calendar{
+.ti-calendar {
   font-size: 36px;
   padding-top: 14px;
   float: left;
 }
-.name_ti-calendar{
+.name-ti-calendar {
   font-family: Roboto-Light;
   width: 308px;
   height: 63px;
   font-size: 48px;
   padding-left: 18px;
+  float: left;
 }
-
-.mask{
+.lpc-mask {
   height: 179px;
   padding-top: 45px;
   padding-left: 389px;
   background-color: rgb(57, 71, 78);
-  border: rgb(199, 196, 196) 1px solid;
+  border: 1px solid rgb(199, 196, 196);
   display: flex;
 }
-.inform_hapo_mask{
+.inform-hapo-mask {
   float: left;
 }
-.img_hapo{
+.hapo-img {
   font-size: 24px;
 }
-.hapo_mask{
+.hapo-inform {
   color: rgb(208, 216, 220);
   font-size: 10px;
   padding-top: 36px;
 }
-.inform_mask{
+.inform-mask {
   padding-top: 9px;
   padding-left: 100px;
 }
-.get_in_touch{
+.get-in-touch {
   font-size: 13px;
   color: rgb(139, 195, 74);
 }
-.contact{
+.contact {
   color: rgb(208, 216, 220);
   font-size: 10px;
   padding-top: 14px;
 }
-.ti-facebook{
+.ti-facebook {
   color: rgb(139, 195, 74);
   padding-top: 63px;
   padding-left: 119px;
 }
-.ti-twitter{
+.ti-twitter {
   color: rgb(139, 195, 74);
   padding-top: 63px;
   padding-left: 38px;
 }
-.ti-youtube{
+.ti-youtube {
   color: rgb(139, 195, 74);
   padding-top: 63px;
   padding-left: 38px;
 }
-.ti-linkedin{
+.ti-linkedin {
   color: rgb(139, 195, 74);
   padding-top: 63px;
   padding-left: 38px;
